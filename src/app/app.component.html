@@ -1,0 +1,18 @@
+
+<div>
+  <button (click)="store()">Store </button>
+</div><br>
+
+<div>
+  <button (click)="get()">Get </button>
+</div><br>
+
+<div>
+  <input type="text" #input />
+  <button (click)="getById(input.value)">Get by Name</button>
+</div><br>
+
+<div>
+  <input type="text" #remove />
+  <button (click)="removeById(remove.value)">Remove by Name</button>
+</div>
